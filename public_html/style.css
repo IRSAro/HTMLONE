@@ -1,4 +1,5 @@
 header{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,17 +7,42 @@ header{
     color:#40C3F7;
     height:200px;
 }
+#cuerpodeinfo{
+    background-color:#F5F7FA;
+    color:#616E7C;
+}
+#parte1{
+    background-color:#DAC4FF;
+}
+#parte2{
+    background-color:#B0D0FF;
+}
+
+#parte3{
+    background-color:#FFBDBD;
+}
+#parte4{
+    background-color:#C6F7E2;
+}
+
 h4{
     display:flex;
     color:#1F2933;
     justify-content: center;
     align-items: center;
     background-color:#F5F7FA;
-    height:30px;   
+    height:30px;
+}
+input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E4E7EB;
+    height:30px;
 }
 body{
     background-color:#CBD2D9;
 }
-#cuerpodeinfo{
-    background-color:#F5F7FA;
+footer{
+    margin-top: 10%;
 }
