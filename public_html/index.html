@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>PROYTECTO MEMO HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            header{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-color:#3E4C59;
+               color:#40C3F7;
+               height:200px;
+            }
+            h4{
+                display:flex;
+                color:#3EBD93;
+                justify-content: center;
+                align-items: center;
+                background-color:#014D40;
+                height:30px;   
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Memorándum by IRSA</h1>
+        </header>
+        <nav>
+            
+        </nav>
+        <main id='cuerpodeinfo'>
+            <h2><strong>Informacion</strong></h2>
+            <p>Proyecto realizado para facilitar la realizacion de
+               comunicaciones internas para organizaciones</p>
+            <h3>Caracteristicas</h3>
+            <ul>
+                <li>Facil de usar</li>
+                <li>Plantillas predeterminadas</li>
+            </ul>   
+        </main>
+        <main id='cuerpo1'>
+            <h2>Llenado del Memorándum</h2>
+            <h3>Datos de control</h3>
+            <form>
+                <h4>Acronimo de la empresa</h4>
+                <input></input>
+                <h4>Acronimo de la oficina del emisor</h4>
+                <h4>numero de memo</h4>
+                <h4>Año</h4>
+            </form>
+            <h3>Datos de remitente y destinatario</h3>
+            <form>
+                <h4>Para:</h4>
+                <input></input>
+                <h4>Cargo:</h4>
+                <input></input>
+                <h4>De:</h4>
+                <input></input>
+                <h4>Cargo</h4>
+                <input></input>
+            </form>
+            <h3>Asunto y texto</h3>
+            <form>
+                <h4>Asunto</h4>
+                <input></input>
+                <h4>Texto</h4>
+                <input></input>
+                <h4>Cierre</h4>
+                <input></input>
+            </form>
+            <h3>Pie de pagina</h3>
+            <form>
+                <h4>Despedida</h4>
+                <datalist id='despedidas'>
+                        <option>Cordialmente</option>
+                        <option>Atentamente</option>
+                </datalist>
+                <input list='despedidas'></input>
+                <h4>Anexo</h4><h5>*Si no tiene un archivo u otro contenido a este, deje el espacio en blanco</h5>
+                <input></input>
+                <h4>Iniciales mecanograficas</h4>
+                <input></input>
+            </form>
+        </main>
+
+        <footer>            
+            Realizado por Isvelis Sanchez 
+            <address>correo: isvelis1@gmail.com</address>
+        </footer>
+    </body>
+</html>
