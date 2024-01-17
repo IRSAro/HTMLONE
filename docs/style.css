@@ -10,20 +10,22 @@ header{
 }
 
 h3{
-    color:#0431B4;
+    color:#0B3861;
     align-items: center;
     height:30px;
     margin-left: 50px;
 }
 h4{
-    color:#035388;
+    color:#0B3861;
     align-items: center;
     height:30px;
     margin-left: 50px;
+    list-style: none;
 }
 h5{
     color:#E12D39;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -55,7 +57,7 @@ footer{
     border-style: solid;
     background-color:#F7F7F7;
     border-radius: 50px;
-    height: 200px;
+    height: auto;
 }
 #textoinfo{
     margin-left: 50px;
