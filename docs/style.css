@@ -19,6 +19,7 @@ h5{
 
 li{
     list-style:none;
+    margin-bottom: 10px;
 }
 
 label{
@@ -36,8 +37,9 @@ input{
 
 textarea{
     background-color:#CEE3F6;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
+    height: auto;
 }
 body{
     background-color:#CEE3F6;
@@ -70,14 +72,19 @@ footer{
     border-radius: 40px;
     padding: 45px;
     margin: 50px;
+    max-width: 320px;
+
+
 }
 .caja2{
     background-color:#B1B1B1;
     border-color: #B1B1B1;
     border-style: solid;
     border-radius: 40px;
-    padding: 50px;
+    padding: 45px;
     margin: 50px;
+    max-width: 320px;
+
 
 }
 
@@ -86,8 +93,10 @@ footer{
     border-color: #B1B1B1;
     border-style: solid;
     border-radius: 40px;
-    padding: 50px;
+    padding: 45px;
     margin: 50px;
+    max-width: 320px;
+    height: auto;
 
 }
 .caja4{
@@ -95,13 +104,24 @@ footer{
     border-color: #B1B1B1;
     border-style: solid;
     border-radius: 40px;
-    padding: 50px;
+    padding: 45px;
     margin: 50px;
+    max-width: 320px;
 
 }
 .contenedor1{
-    width: auto;
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .contenedor2{
-    width: auto;
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
