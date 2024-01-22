@@ -6,9 +6,7 @@ header{
     color:#2E9AFE;
     height:200px;
 }
-nav{
-    background-color:#2E9AFE; 
-}
+
 h3{
     color:#0B3861;
 }
@@ -32,6 +30,7 @@ input{
     border-radius: 40px;
     border:0;
     height: 50px;
+    width: 100%;
     text-align: center;
     font-size: 18px;
 }
@@ -51,9 +50,47 @@ footer{
 }
 .despleguedelmenu{
     display:none;
+    position:absolute;
+    list-style: none;
+    width: auto;
+    background:transparent;
 }
 .botondemenu:hover .despleguedelmenu{
     display:block;
+}
+.botonmenu{
+    font-size: 24px;
+    text-align: center;
+    background-color:#0B3861;
+    color:#2E9AFE;
+    width: 100px;
+    border-radius: 10px;
+    border-color:#2E9AFE;
+    margin-left: 50px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.botonmenu:hover{
+    background-color:#2E9AFE;
+    color:#0B3861;
+}
+.boton{
+    font-size: 24px;
+    text-align: left;
+    background-color:#0B3861;
+    color:#2E9AFE;
+    width: 200px;
+    border-radius: 10px;
+    border-color:#2E9AFE;
+    margin-left: 50px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background-color:#2E9AFE;
+    color:#0B3861;
 }
 .caja1{
     background-color:#B1B1B1;
