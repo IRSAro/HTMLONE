@@ -5,8 +5,13 @@ header{
     background-color:#0B3861;
     color:#2E9AFE;
     height:200px;
+    border: solid;
+    border-color: transparent;
+    border-bottom-color:#2E9AFE; 
 }
-
+nav{
+    margin: 50px;
+}
 h3{
     color:#0B3861;
 }
@@ -35,7 +40,15 @@ input{
     font-size: 18px;
 }
 
-
+textArea{
+    width: 100%;
+    background-color:#CEE3F6;
+    border-radius: 5px;
+    border:0;
+    height: 100px;
+    text-align: justify;
+    font-size: 12px;
+}
 body{
     background-color:#0B3861;
 }
@@ -132,6 +145,7 @@ footer{
     border-radius: 40px;
     padding: 45px;
     width: 320px;
+    height: 100%;
     margin: 5px;
 }
 .contenedor1{
