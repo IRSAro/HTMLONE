@@ -32,7 +32,7 @@ label{
 }
 input{
     background-color:#CEE3F6;
-    border-radius: 40px;
+    border-radius: 5px;
     border:0;
     height: 50px;
     width: 100%;
@@ -51,10 +51,17 @@ textArea{
 }
 body{
     background-color:#0B3861;
+    
+}
+main{
+    border: solid;
+    border-color: transparent;
+    border-bottom-color: #2E9AFE;
+    border-top-color: #2E9AFE;
 }
 footer{
     text-align: center;
-    margin-top: 10%;
+    margin: 50px;
 }
 
 .subtitulo{
