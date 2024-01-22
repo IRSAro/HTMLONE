@@ -6,6 +6,9 @@ header{
     color:#2E9AFE;
     height:200px;
 }
+nav{
+    background-color:#2E9AFE; 
+}
 h3{
     color:#0B3861;
 }
@@ -33,30 +36,13 @@ input{
     font-size: 18px;
 }
 
-textarea{
-    background-color:#CEE3F6;
-    text-align: justify;
-    font-size: 18px;
-    height: auto;
-}
+
 body{
-    background-color:#CEE3F6;
+    background-color:#0B3861;
 }
 footer{
     text-align: center;
     margin-top: 10%;
-}
-
-#cuerpodeinfo{
-    
-    border-color: #F7F7F7;
-    border-style: solid;
-    background-color:#F7F7F7;
-    height: auto;
-}
-#textoinfo{
-    margin-left: 50px;
-    color:#0B3861;
 }
 
 .subtitulo{
@@ -70,6 +56,7 @@ footer{
     border-radius: 40px;
     padding: 45px;
     width: 320px;
+    margin: 5px;
 
 
 }
@@ -80,6 +67,8 @@ footer{
     border-radius: 40px;
     padding: 45px;
     width: 320px;
+    margin: 5px;
+
 }
 
 .caja3{
@@ -90,6 +79,7 @@ footer{
     padding: 45px;
     width: 320px;
     height: auto;
+    margin: 5px;
 
 }
 .caja4{
@@ -99,7 +89,7 @@ footer{
     border-radius: 40px;
     padding: 45px;
     width: 320px;
-
+    margin: 5px;
 }
 .contenedor1{
 
