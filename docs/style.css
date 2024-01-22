@@ -58,6 +58,7 @@ main{
     border-color: transparent;
     border-bottom-color: #2E9AFE;
     border-top-color: #2E9AFE;
+    padding-bottom: 50px;
 }
 footer{
     text-align: center;
