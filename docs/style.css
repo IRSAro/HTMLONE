@@ -11,6 +11,11 @@ header{
 }
 nav{
     margin: 50px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 h3{
     color:#0B3861;
@@ -70,42 +75,15 @@ footer{
     color:#0B3861;
     text-align: center;
 }
-.despleguedelmenu{
-    display:none;
-    position:absolute;
-    list-style: none;
-    width: auto;
-    background:transparent;
-}
-.botondemenu:hover .despleguedelmenu{
-    display:block;
-}
-.botonmenu{
-    font-size: 24px;
-    text-align: center;
-    background-color:#0B3861;
-    color:#2E9AFE;
-    width: 100px;
-    border-radius: 10px;
-    border-color:#2E9AFE;
-    margin-left: 50px;
-    padding: 10px;
-    cursor:pointer;
-}
 
-.botonmenu:hover{
-    background-color:#2E9AFE;
-    color:#0B3861;
-}
 .boton{
     font-size: 24px;
     text-align: left;
     background-color:#0B3861;
     color:#2E9AFE;
-    width: 200px;
-    border-radius: 10px;
-    border-color:#2E9AFE;
-    margin-left: 50px;
+    width: auto;
+    border-bottom: none;
+    border-bottom-color:transparent; 
     padding: 10px;
     cursor:pointer;
 }
