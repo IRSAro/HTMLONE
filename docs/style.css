@@ -62,6 +62,7 @@ main{
 footer{
     text-align: center;
     margin: 50px;
+    color:#2E9AFE;
 }
 
 .subtitulo{
@@ -109,6 +110,23 @@ footer{
 }
 
 .boton:hover{
+    background-color:#2E9AFE;
+    color:#0B3861;
+}
+.botondocumento{
+    font-size: 24px;
+    text-align: center;
+    background-color:#0B3861;
+    color:#2E9AFE;
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-color:#2E9AFE;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.botondocumento:hover{
     background-color:#2E9AFE;
     color:#0B3861;
 }
