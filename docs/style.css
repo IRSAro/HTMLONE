@@ -10,7 +10,7 @@ header{
     border-bottom-color:#2E9AFE; 
 }
 nav{
-    margin: 50px;
+    margin: 5px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -78,12 +78,11 @@ footer{
 
 .boton{
     font-size: 24px;
-    text-align: left;
+    text-align: center;
     background-color:#0B3861;
     color:#2E9AFE;
     width: auto;
-    border-bottom: none;
-    border-bottom-color:transparent; 
+    border-color:transparent; 
     padding: 10px;
     cursor:pointer;
 }
@@ -91,6 +90,13 @@ footer{
 .boton:hover{
     background-color:#2E9AFE;
     color:#0B3861;
+}
+.separador{
+    font-size: 24px;
+    text-align: center;
+    background-color:#0B3861;
+    color:#2E9AFE;
+    margin: 5px;
 }
 .botondocumento{
     font-size: 24px;
